@@ -19,13 +19,6 @@ html {
 body {
   margin: 0; }
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-    text-align: center;
-    color: #7e9f9b;
-    }
-
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -176,7 +169,7 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
- body {
+  body {
   margin: 0;
   padding: 0;
   background: #fefefe;
@@ -2246,6 +2239,7 @@ h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
+
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
     font-size: 3rem; }
@@ -2269,7 +2263,7 @@ a {
     color: #1468a0; }
   a img {
     border: 0; }
-
+*/
 hr {
   clear: both;
   max-width: 75rem;

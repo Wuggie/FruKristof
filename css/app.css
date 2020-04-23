@@ -132,8 +132,11 @@
 }
 
 h1{
+    font-size: 2em;
     text-align: center;
     color: #7e9f9b;
+    Font-family: "Handlee", cursive;
+    font-weight: bold;
 }
 
 body{
@@ -145,3 +148,4 @@ body{
     background-color: #d7e1d9;
     display: block;
 }
+

@@ -21,7 +21,10 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+    text-align: center;
+    color: #7e9f9b;
+    }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -173,23 +176,23 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
-body {
+ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Handlee', cursive, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale; } 
 
-img {
+/* img {
   display: inline-block;
   vertical-align: middle;
   max-width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic; } */
 
 textarea {
   height: auto;

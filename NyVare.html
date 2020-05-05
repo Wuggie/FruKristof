@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html lang="da-DK">
+<head>
+    <title>Velkommen til Fru Kristof - stof, tilbehør og meget andet</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo1_qys_icon.ico" >
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="script.js"></script>
+</head>
+    
+<body>
+    <div class="newitemform">
+        <div class="varetype">
+            <label for="varetype">varetype:</label>
+        
+            <select id="varetypemenu">
+                <option value="metervarer">Metervarer</option>
+                <option value="strygestof og skiltefolie">Strygestof og Skiltefolie</option>
+                <option value="tilbehør">Tilbehør</option>
+            </select>
+        </div>
+        
+        <form id="vare" action="vare.html">
+            Vare: <input type="text" name="vare" value="vare navn">
+            pris: <input type="text" name="pris" value="pris">
+            <input type="submit" value="Submit">
+        </form>
+        
+        
+        
+    </div>
+    
+    <script>
+        var fields = {};
+        $("#vare").find(":input").each(function(){
+            fields[this.name] = $(this).val();
+        });
+        
+        var obj = {fields: fields};
+        
+        console.log(obj);
+    </script>
+</body>
+
+
+</html>

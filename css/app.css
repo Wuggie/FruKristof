@@ -8,12 +8,16 @@
     font-family: 'Handlee', cursive;
     font-weight: bold;
     display: block;
+    
 }
 
 .navbanner{
     height: 150px;
     background-color: #d7e1d9;
     display: block;
+    top: 0;
+    
+    
     
     
 }
@@ -28,6 +32,7 @@
     display: block;
     padding-left: 135px;
     
+    
 }
 
 
@@ -38,6 +43,11 @@
   color: #7e9f9b;;
   text-align: left;
   padding: 14px 16px;
+   
+    
+    
+   
+    
  
     
 }
@@ -97,6 +107,7 @@
 .showcase{
     padding: 40px;
     text-align: center;
+    
 }
 
 #logo {
@@ -141,6 +152,7 @@ h1{
 
 body{
     font-family: 'Handlee', cursive;
+
 }
 
 .bottom{
@@ -149,3 +161,21 @@ body{
     display: block;
 }
 
+.newitemform{
+    background-color: #d7e1d9;
+    display: block;
+    width: 500px;
+    align-content: center;
+    padding-bottom: 1px;
+}
+
+input[type=text]{
+    margin-left: 30px;
+    width: 300px;
+}
+.varetype{
+    width: 300px;
+}
+select {
+    margin-left: 30px;
+}

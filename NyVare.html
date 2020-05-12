@@ -18,7 +18,10 @@
     
 <body>
     <div class="newitemform">
-        <div class="varetype">
+        
+        
+        <form action="/vare.html" id="vare">
+            <div class="varetype">
             <label for="varetype">varetype:</label>
         
             <select id="varetypemenu">
@@ -27,14 +30,13 @@
                 <option value="tilbehør">Tilbehør</option>
             </select>
         </div>
-        
-        <form id="vare" action="vare.html">
-            Vare: <input type="text" name="vare" value="vare navn">
-            pris: <input type="text" name="pris" value="pris">
-            materiale: <input type="text" name="materiale" value="materiale">
-            bredde: <input type="text" name="bredde" value="bredde">
-            vægt: <input type="text" name="vægt" value="vægt">
-            <input type="submit" value="Submit">
+            filnavn: <input type="text" name="filnavn" value="Filnavn (ingen mellemrum!)">
+            Vare: <input type="text" id="vare" value="vare navn">
+            pris: <input type="text" id="pris" value="pris">
+            materiale: <input type="text" id="materiale" value="materiale">
+            bredde: <input type="text" id="bredde" value="bredde">
+            vægt: <input type="text" id="vægt" value="vægt">
+            <button onclick="newHTML()">Submit</button>
         </form>
         
         
@@ -42,14 +44,13 @@
     </div>
     
     <script>
-        var fields = {};
-        $("#vare").find(":input").each(function(){
-            fields[this.name] = $(this).val();
-        });
-        
-        var obj = {fields: fields};
-        
-        console.log(obj);
+        function newHTML(){
+            var fs = require('fs');
+
+            var htmlContent = '<html>test</html>';
+
+            fs.writeFile('/test.html', htmlContent, (error) => { /* handle error */ });
+        }
     </script>
 </body>
 

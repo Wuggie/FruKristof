@@ -122,6 +122,11 @@ html, body{
     padding: 10px;
 }
 
+.search {
+    float: right;
+    padding-right: 160px;
+}
+
 .main {
     min-height: 100%;
 }
@@ -160,12 +165,35 @@ h1{
     color: #7e9f9b;
     Font-family: "Handlee", cursive;
     font-weight: bold;
+    padding-top: 40px;
 }
 
 body{
     font-family: 'Handlee', cursive;
 
 }
+
+.itemband {
+    padding-left: 140px;
+    text-align: center;
+    height: 300px;
+}
+
+.item {
+    width: 220px;
+    float: left;
+    padding-left: 20px;
+}
+
+.iteminfo {
+    text-align: center;
+}
+
+.shopbtn {
+    background-color: #d7e1d9;
+    text-align: center;
+}
+
 
 .bottom{
      height: 150px;

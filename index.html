@@ -12,8 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css" >
+    <link rel="stylesheet" href="css/lightsliderstyle.css"/>
+<link rel="stylesheet" href="css/lightslider.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
     <script src="script.js"></script>
+    <script src="lightsliderscript/script.js" type="text/javascript"></script>
+<script src="lightsliderscript/lightslider.js" type="text/javascript"></script>
 </head>
     
 <body>
@@ -97,11 +101,13 @@
       <a href="#">Ønskeliste</a>
       </div>
             </div>
-            
+        
+        <div class="searchposition">
         <div class="search">
             <form action="" method="">
             <input type="text" id="searchbar" placeholder="" value="søg varer..." maxlength="25" autocomplete="off" onMouseDown="" onblur="" />
             </form>
+            </div>
             </div>
   </div>
             
@@ -127,191 +133,331 @@
     <div class="Nyheder">
         <div><h1>Nyheder</h1></div>
         
-        <div class="itemband">
-        <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+        <div class="centercontainer">
+    <div class="container">
+        <!--slider----------------------------------------------------->
+        <ul class="autoWidth" class="cS-hidden">
+        <!--1-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/blomster-af-vandfarve.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomster af vandfarve</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            </div>
-            
-            
         </div>
+        </li>
+            
+        <!--2-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/Blomstereng.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomstereng</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--3-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/bondeg%C3%A5rd-p%C3%A5-bl%C3%A5.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Bondegård på blå</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        
+        <!--4-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dragesk%C3%A6l-gr%C3%B8n-bl%C3%A5-lilla-temp.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Drageskæl</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        
+        <!--5-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dyr-p%C3%A5-balloner.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Dyr på balloner</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--6-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/enhj%C3%B8rning-donuts.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Enhjørning og donuts</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--7-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/farverigt-rum.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Farverigt rum</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        </ul>
+        
     
     </div>
-    <br>
+    </div>
     
     <div class="Tilbud">
     <div><h1>Tilbud</h1></div>
     
-        <div class="itemband">
-        <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+         <div class="centercontainer">
+    <div class="container">
+        <!--slider----------------------------------------------------->
+        <ul class="autoWidth" class="cS-hidden">
+        <!--1-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/blomster-af-vandfarve.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomster af vandfarve</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
-            </div>
+        </div>
+        </li>
             
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+        <!--2-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/Blomstereng.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomstereng</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
-            </div>
+        </div>
+        </li>
             
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+        <!--3-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/bondeg%C3%A5rd-p%C3%A5-bl%C3%A5.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Bondegård på blå</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
+        </div>
+        </li>
+        
+        <!--4-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dragesk%C3%A6l-gr%C3%B8n-bl%C3%A5-lilla-temp.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Drageskæl</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
+        </div>
+        </li>
+        
+        <!--5-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dyr-p%C3%A5-balloner.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Dyr på balloner</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
             
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+        <!--6-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/enhj%C3%B8rning-donuts.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Enhjørning og donuts</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
-            </div>
+        </div>
+        </li>
             
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
+        <!--7-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/farverigt-rum.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Farverigt rum</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
             </div>
-            </div>
-            
-            </div>
+        </div>
+        </li>
+        </ul>
+        
+    
+    </div>
+    </div>
     
     <div class="chance">
     <div><h1>Sidste Chance</h1></div>
-    <div class="itemband">
-        <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            <div class="item">
-            <img height="200px" src="images/fabric/Blomstereng.jpg" />
-            <div class="iteminfo">
-                Blomstereng
-            <br>
-                145,- kr/m
-            <br>
-                <button class="shopbtn">Føj til kurv</button>
-            </div>
-            </div>
-            
-            </div>
     
+        <div class="centercontainer">
+    <div class="container">
+        <!--slider----------------------------------------------------->
+        <ul class="autoWidth" class="cS-hidden">
+        <!--1-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/blomster-af-vandfarve.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomster af vandfarve</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--2-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/Blomstereng.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Blomstereng</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--3-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/bondeg%C3%A5rd-p%C3%A5-bl%C3%A5.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Bondegård på blå</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        
+        <!--4-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dragesk%C3%A6l-gr%C3%B8n-bl%C3%A5-lilla-temp.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Drageskæl</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        
+        <!--5-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/dyr-p%C3%A5-balloner.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Dyr på balloner</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--6-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/enhj%C3%B8rning-donuts.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Enhjørning og donuts</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+            
+        <!--7-------------------------------------->
+        <li class="item-a"><!--slider-box-->
+        <div class="box">
+            <!--item-->
+            <img src="images/fabric/farverigt-rum.jpg" class="item">
+            <!--details-->
+            <div class="details">
+                <p class="item-name">Farverigt rum</p>
+                <p class="item-price">DKK 145,00 kr pr meter</p>
+                <button class="shop-btn">Tilføj til kurv</button>
+            </div>
+        </div>
+        </li>
+        </ul>
+        
+    
+    </div>
     </div>
     
     <div class="bottom">

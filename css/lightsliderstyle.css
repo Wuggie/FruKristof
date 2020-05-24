@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.centercontainer{
+    text-align: center;
+    }
+
+.container{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.box{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+
+.item{
+    height: 200px;
+    max-height: 100%;
+    max-width: 100%;   
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.box:hover{
+    background-color: lightgrey;
+    transform: scale(1.02);
+}

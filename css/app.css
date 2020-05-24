@@ -16,6 +16,8 @@
     background-color: #d7e1d9;
     display: block;
     top: 0;
+    text-align: center;
+    width: 100%;
     
     
     
@@ -29,8 +31,10 @@
   font-size: 22px;    
     font-weight:bold;
     text-align: center;
-    display: block;
-    padding-left: 135px;
+    display: inline-block;
+    width: 80%;
+    
+    
     
     
 }
@@ -46,14 +50,7 @@ html, body{
   font-size: 18px;;
   color: #7e9f9b;;
   text-align: left;
-  padding: 14px 16px;
-   
-    
-    
-   
-    
- 
-    
+  padding: 14px 16px;    
 }
 
 /* The dropdown container */
@@ -122,9 +119,14 @@ html, body{
     padding: 10px;
 }
 
+.searchposition{
+    text-align: right;
+}
+
 .search {
-    float: right;
-    padding-right: 160px;
+    display: inline-block;
+
+    
 }
 
 .main {
@@ -137,6 +139,7 @@ html, body{
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    text-align: center;
 }
 
 .slide {
@@ -147,6 +150,7 @@ html, body{
     height: 100%;
     opacity: 0;
     z-index: 1;
+    display: inline-block;
 
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
@@ -173,26 +177,7 @@ body{
 
 }
 
-.itemband {
-    padding-left: 140px;
-    text-align: center;
-    height: 300px;
-}
 
-.item {
-    width: 220px;
-    float: left;
-    padding-left: 20px;
-}
-
-.iteminfo {
-    text-align: center;
-}
-
-.shopbtn {
-    background-color: #d7e1d9;
-    text-align: center;
-}
 
 
 .bottom{

@@ -110,9 +110,10 @@ html, body{
 }
 
 .showcase{
-    padding: 40px;
     text-align: center;
-    height: 600px;
+    height: 450px;
+    max-width: 100%;
+    padding-top: 40px;
     padding-bottom: 200px;
     
 }
@@ -135,6 +136,11 @@ html, body{
 .centercontainer{
     text-align: center;
     min-height: 100%;
+}
+
+.mainindex{
+    display: inline-block;
+    width: 100%;
 }
 
 .main {
@@ -191,6 +197,11 @@ body{
 
 }
 
+.image{
+    height: 400px;
+    width: 80%;
+}
+
 .fabricRow{
     height: 350px;
     text-align: left;
@@ -202,10 +213,7 @@ body{
 .storebox{
     height: 100%;
     width: 200px;
-    text-align: center;
-    
-   
-    
+    text-align: center;    
 }
 
 

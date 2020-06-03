@@ -23,7 +23,7 @@
 
    
         
-        <div class="navbanner">
+        <div class="navbanner" id="menuBar">
         <div class="navbar">
   <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" /></div></a>
   <div class="dropdown menuitem">
@@ -102,7 +102,7 @@
   </div>
    </div> 
  <div class="centercontainer">    
-  <div class="main">
+  <div class="main" id="contentIndex">
     
   <div class="header"><h1>Isoli</h1></div>
     
@@ -428,6 +428,24 @@
     
     <div class="bottom">
     </div>
+    
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var menu = document.getElementById("menuBar");
+        var sticky = menu.offsetTop;
+        var contentIndex = document.getElementById("contentIndex");
+        
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                menu.classList.add("sticky");
+                contentIndex.classList.add("contentIndex");
+            }else{
+                menu.classList.remove("sticky");
+                contentIndex.classList.remove("contentIndex");
+            }
+        }
+    </script>
 </body>
 
 

@@ -114,7 +114,7 @@
    </div> 
 
 
-<div class="mainIndex">        
+<div class="mainIndex" id="contentIndex">        
     
     <div class="showcase">
      <ul id="slides">
@@ -467,12 +467,15 @@
         
         var menu = document.getElementById("menuBar");
         var sticky = menu.offsetTop;
+        var contentIndex = document.getElementById("contentIndex");
         
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 menu.classList.add("sticky");
+                contentIndex.classList.add("contentIndex");
             }else{
                 menu.classList.remove("sticky");
+                contentIndex.classList.remove("contentIndex");
             }
         }
     </script>

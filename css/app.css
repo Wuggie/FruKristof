@@ -188,7 +188,31 @@ html, body{
 }
 
 h1{
-    font-size: 2em;
+    
+    text-align: center;
+    color: #7e9f9b;
+    Font-family: "Handlee", cursive;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+h2{
+
+    text-align: center;
+    color: #7e9f9b;
+    Font-family: "Handlee", cursive;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+h3{
+    color: #7e9f9b;
+    Font-family: "Handlee", cursive;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.overskrift {
     text-align: center;
     color: #7e9f9b;
     Font-family: "Handlee", cursive;
@@ -225,6 +249,30 @@ body{
     height: 200px;
     max-height: 100%;
     max-width: 100%;
+}
+
+#login {
+   
+    float: left;
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+#createacc {
+  
+    float: right;
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+p {
+    padding-left: 30px;
+}
+
+.kontosubmit {
+    padding-left: 30px;
 }
 
 

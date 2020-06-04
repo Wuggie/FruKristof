@@ -63,6 +63,7 @@ html, body{
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+
 }
 
 /* Add a red background color to navbar links on hover */
@@ -121,6 +122,12 @@ html, body{
 
 .searchposition{
     text-align: right;
+}
+.searchposition2{
+    text-align: right;
+    top: 0;
+    position: fixed;
+    display: inline-block;
 }
 
 .search {

@@ -102,7 +102,7 @@
       </div>
             </div>
         
-        <div class="searchposition">
+        <div class="searchposition" id="searchBox">
         <div class="search">
             <form action="" method="">
             <input type="text" id="searchbar" placeholder="" value="søg varer..." maxlength="25" autocomplete="off" onMouseDown="" onblur="" />
@@ -469,17 +469,22 @@
         var sticky = menu.offsetTop;
         var contentIndex = document.getElementById("contentIndex");
         var logoIMG = document.getElementById("bannerLogo");
+        var search = document.getElementById("searchBox");
+        var btns = docuement.getElementById("dropbtnID");
         
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 menu.classList.add("sticky");
                 contentIndex.classList.add("contentIndex");
                 logoIMG.style.height = "50px";
+                search.classList.add("searchposition2");
+                btns.classList.add("sticky");
                 
             }else{
                 menu.classList.remove("sticky");
                 contentIndex.classList.remove("contentIndex");
                 logoIMG.style.height = "130px";
+                search.classList.remove("searchposition2");
             }
         }
     </script>

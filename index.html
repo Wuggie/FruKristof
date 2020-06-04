@@ -28,8 +28,8 @@
    
         
         <div class="navbanner" id="menuBar">
-        <div class="navbar" >
-  <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" /></div></a>
+        <div class="navbar">
+  <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" id="bannerLogo"/></div></a>
   <div class="dropdown menuitem">
     <br>
     <br>  
@@ -468,14 +468,18 @@
         var menu = document.getElementById("menuBar");
         var sticky = menu.offsetTop;
         var contentIndex = document.getElementById("contentIndex");
+        var logoIMG = document.getElementById("bannerLogo");
         
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 menu.classList.add("sticky");
                 contentIndex.classList.add("contentIndex");
+                logoIMG.style.height = "50px";
+                
             }else{
                 menu.classList.remove("sticky");
                 contentIndex.classList.remove("contentIndex");
+                logoIMG.style.height = "130px";
             }
         }
     </script>

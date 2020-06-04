@@ -17,9 +17,7 @@
     display: block;
     top: 0;
     text-align: center;
-    width: 100%;
-    
-        
+    width: 100%;    
     
     
     
@@ -34,11 +32,6 @@
     text-align: center;
     display: inline-block;
     width: 80%;
-    
-    
-    
-    
-    
 }
 
 
@@ -256,10 +249,7 @@ select {
     top: 0;
     width: 100%;
     z-index: 3;
-}
-
-.sticky + .content {
-    padding-top: 102px;
+    height: 7%;
 }
 .contentIndex{
     padding-top: 200px;

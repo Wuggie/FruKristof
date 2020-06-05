@@ -267,7 +267,7 @@ body{
     display: inline-block;
 }
 
-p {
+.p-tag {
     padding-left: 30px;
 }
 

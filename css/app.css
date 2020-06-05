@@ -123,12 +123,6 @@ html, body{
 .searchposition{
     text-align: right;
 }
-.searchposition2{
-    text-align: right;
-    top: 0;
-    position: fixed;
-    display: inline-block;
-}
 
 .search {
     display: inline-block;
@@ -305,8 +299,7 @@ select {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 3;
-    height: 7%;
+    z-index: 300;
 }
 .contentIndex{
     padding-top: 200px;

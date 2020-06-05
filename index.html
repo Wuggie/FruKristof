@@ -32,8 +32,10 @@
   <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" id="bannerLogo" /></div></a>
   <div class="dropdown menuitem">
     <br>
+      <div hidden>
     <br>  
     <br>
+          </div>
       <button onClick="window.location='metervarer.html';" class="dropbtn">Metervarer<i class="fa fa-caret-down"></i>
     </button><div class="dropdown-content">
       <a href="jersey.html">Jersey</a>
@@ -49,8 +51,10 @@
   </div>
             
         <br>
+            <div hidden>
             <br>
             <br>
+                </div>
             
             <div class="dropdown menuitem">
      
@@ -470,8 +474,6 @@
         var sticky = menu.offsetTop;
         var contentIndex = document.getElementById("contentIndex");
         var logoIMG = document.getElementById("bannerLogo");
-        var search = document.getElementById("searchBox");
-        var btns = docuement.getElementById("dropbtnID");
         
         function myFunction() {
             if (window.pageYOffset > sticky) {

@@ -305,3 +305,6 @@ select {
     padding-top: 200px;
     
 }
+.hidden{
+    visibility: hidden;
+}

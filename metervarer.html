@@ -27,13 +27,15 @@
 
    
         
-        <div class="navbanner" id="menuBar">
+         <div class="navbanner" id="menuBar">
         <div class="navbar">
-  <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" /></div></a>
+  <a href="index.html"><div class="logo"><img height="130px;" src="images/cropped-logo-uden-baggrund-4.png" id="bannerLogo" /></div></a>
   <div class="dropdown menuitem">
     <br>
+      <div id="brHider">
     <br>  
     <br>
+          </div>
       <button onClick="window.location='metervarer.html';" class="dropbtn">Metervarer<i class="fa fa-caret-down"></i>
     </button><div class="dropdown-content">
       <a href="jersey.html">Jersey</a>
@@ -49,8 +51,10 @@
   </div>
             
         <br>
+            <div id="brHider2">
             <br>
             <br>
+                </div>
             
             <div class="dropdown menuitem">
      
@@ -89,7 +93,8 @@
         <div class="dropdown menuitem">
       <button onClick="window.location='minkonto.html';" class="dropbtn">Min konto
       <i class="fa fa-caret-down"></i>
-    </button>
+    </button><div class="dropdown-content">
+      </div>
             </div>
             
              <div class="dropdown menuitem">
@@ -100,7 +105,8 @@
             
             
             
-     <div class="searchposition">
+     <div class="searchposition" id="searchBox">
+         
         <div class="search">
             <form action="" method="">
             <input type="text" id="searchbar" placeholder="" value="søg varer..." maxlength="25" autocomplete="off" onMouseDown="" onblur="" />
@@ -110,12 +116,12 @@
              <img height="20px" src="images/shopping-cart-371979_960_720-removebg-preview.png" />
          </div>
             </div>
-            
-    
   </div>
+            
    </div> 
+
    
-<div class="centercontainer">    
+<div class="centercontainer" id="contentIndex">    
   <div class="main" id="contentIndex">
     
   
@@ -1027,14 +1033,24 @@
         var menu = document.getElementById("menuBar");
         var sticky = menu.offsetTop;
         var contentIndex = document.getElementById("contentIndex");
+        var logoIMG = document.getElementById("bannerLogo");
+        var brHider = document.getElementById("brHider");
+        var brHider2 = document.getElementById("brHider2");
         
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 menu.classList.add("sticky");
                 contentIndex.classList.add("contentIndex");
+                logoIMG.style.height = "50px";
+                brHider.classList.add("hidden");
+                brHider2.classList.add("hidden")
+                
             }else{
                 menu.classList.remove("sticky");
                 contentIndex.classList.remove("contentIndex");
+                logoIMG.style.height = "130px";
+                brHider.classList.remove("hidden");
+                brHider2.classList.remove("hidden")
             }
         }
     </script>

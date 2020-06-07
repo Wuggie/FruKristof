@@ -50,7 +50,7 @@
             
             <div class="dropdown menuitem">
      
-            <button onClick="window.location='folie.html';" class="dropbtn">Folie
+            <button class="dropbtn">Folie
       <i class="fa fa-caret-down"></i>
     </button><div class="dropdown-content">
       <a href="strygefolie.html">Strygestof</a>
@@ -86,8 +86,6 @@
       <button onClick="window.location='minkonto.html';" class="dropbtn">Min konto
       <i class="fa fa-caret-down"></i>
     </button><div class="dropdown-content">
-      <a href="profil.html">Profil</a>
-      <a href="onskeliste.html">Ønskeliste</a>
       </div>
             </div>
             
@@ -113,37 +111,44 @@
    <div class="centercontainer">    
   <div class="main" id="contentIndex">
     
-  <div class="header"><h1>Strygefolie</h1></div>
     
       <div id="folieimg">
       <img src="images/fabric/blomster-af-vandfarve.jpg">
       </div>
       
       <div id="foliedetails">
-      <h3>Siser P.S. Film Easyweed</h3>
+      <h3>Siser P.S. Film Easyweed - strygefolie</h3>
           <br>
           <h4>DKK 12,00 - DKK 30,00</h4>
           <br>
           <h7>STANDART 100 by OEKO-TEX</h7>
           <br><br>
-          <h7>Vælg farve og størrelse</h7>
-          <br><br>
           
           <h7>Størrelse:</h7><br>
+          <form>
           <select id="storrelse">
           <option value="lille">25 x 15 cm</option>
             <option value="mellem">25 x 30 cm</option>
                <option value="stor">50 x 30 cm</option>
           </select>
-          <br>
+          </form>
+          
           
           <h7>Farve</h7>
         <div id="farvevalg">
+            <img class="cirkelvalg" src="images/fabric/blomster-af-vandfarve.jpg" />
+            <img class="cirkelvalg" src="images/fabric/blomster-af-vandfarve.jpg" />
           <img class="cirkelvalg" src="images/fabric/blomster-af-vandfarve.jpg" />
             <img class="cirkelvalg" src="images/fabric/blomster-af-vandfarve.jpg" />
-            <img class="cirkelvalg" src="images/fabric/blomster-af-vandfarve.jpg" />
         </div>
-      </div>
+          <br><br>
+          
+          <div class="flex">
+          <input type="number" id="antal" class="antal" step="1" min="1" max="" name="quantity" value="1" title="Stk." size="4" inputmode="">
+        <input type="submit"  value="Læg i kurv" class="kurvbtn">
+          </div>
+          
+          
 
       
     </div>

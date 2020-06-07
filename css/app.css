@@ -299,6 +299,21 @@ body{
   border-bottom-left-radius: 50% 50%;
 }
 
+.antal {
+    width: 50px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.kurvbtn {
+    height: 40px;
+    margin-left: 20px;
+}
+
 .p-tag {
     padding-left: 30px;
 }

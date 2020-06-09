@@ -339,7 +339,7 @@ body{
 }
 
 .bottom{
-     height: 150px;
+   
     background-color: #d7e1d9;
     display: block;
 }
@@ -392,3 +392,63 @@ select {
     border-color: #97b8b4;
     padding: 10px;
 }
+
+#footer {
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#findos {
+    margin-top: 40px;
+}
+
+#mereinfo {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.footerH {
+    font-size: 16px;
+    color: #97b8b4;
+    font-weight: bold;
+}
+
+.footerp {
+    font-size: 14px;
+    color: #97b8b4;
+    width: 150px;
+
+
+    
+}
+
+hr {
+    border: none;
+    background-color: #97b8b4;
+    height: 1px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+.footerlink {
+    color: #97b8b4;
+}
+
+.footerimg {
+    display: inline-block;
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 65%;
+    
+}
+
+.signature {
+    color: #97b8b4;
+    margin-left: 10%;
+}
+

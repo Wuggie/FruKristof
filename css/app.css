@@ -377,6 +377,10 @@ select {
     display: none;
 }
 
+#prove {
+    width: 100%;
+}
+
 .shop-btn {
     background-color: #97b8b4;
     border-color: #97b8b4;
